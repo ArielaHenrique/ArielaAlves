@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trabalho Web</title>
+  <link rel="stylesheet" href="css/stylr.css"/>
+  <link rel="stylesheet" href="cc/all.min.css">
+  <link rel="stylesheet" href="cc/fontawesome.min.css">
+  <link rel="shorcout icon" href="foto/1.jpg" type="images/jpg">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src="foto/1.jpg" alt="">
+    <div class="logo">---- MyWebsite -- Traballu ----</div>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+      <li><a href="#gallery"><i class="fas fa-camera"></i>Gallery</a></li>
+      <li><a href="#contact"><i class="fas fa-phone"></i>Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with Video -->
+  <header class="header">
+    <video autoplay muted loop class="video-bg">
+      <source src="video/iob.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+    <div class="overlay">
+      <h1>Welcome</h1>
+      <p>Mai hau nia pagina Website video header</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="aktividade">
+      <h2 id="home">Aktividade Eskola</h2>
+      <div class="aktividade-container">
+        <div class="card">
+          <img src="foto/1.jpg" alt="Atividade 1">
+          <h3>Aprejentasaun Trabalho do Grupo</h3>
+          <p>Bom dia/boa tarde a todos. Ami Grupo N.º 3 hakarak apresente traballu 
+            ida ne'ebe ami halo iha tempu ne'e. Tema principal husi traballu ida ne'e.
+             Ami halo peskiza ho kolekta dadus husi livru, internet no entrevista, 
+             atu bele kompriende tema ne'e iha forma klean no efetivu.</p>
+
+             <p>Iha traballu ida ne'e, ami buka informasaun kona-ba \[subtema 1], 
+              \[subtema 2] no \[subtema 3]. Ami analiza situasaun sira ne'ebe importante, 
+              no hatudu solusaun sira ne'ebe importante ba dezenvolvimentu lokal/nasional. Dadus ne'ebe ami simu hatudu katak problema ida iha impaktu boot,
+               maibé bele rezolve tanba kooperasaun komunidade no governu.</p>
+
+               <p>Husi rezultadu traballu ne'e, ami aprende buat barak kona-ba tema ida ne'e.
+                Ami hatene katak kolaborasaun iha grupu importante tebes atu bele remata traballu ho di'ak. 
+                Obrigadu barak ba atensaun sira. 
+                Se iha pergunta, favor hatete, ami prontu atu hatutan klarifikasaun.</p>
+        </div>
+        <div class="card">
+          <img src="foto/3.jpg" alt="Atividade 2">
+          <h3>Atividade Estajiu</h3>
+          <p>Estajiu sai hanesan materia ida ne’ebé ami hetan iha semester V,
+             ho ida ne’e antes atu hetan valor ami presija hala’o 
+             estajiu iha instituisaun governu ka privadu sira. 
+             Antes remata ami nia estajiu iha CNE Nasional Colmera-Dili 
+             Timor-Leste, ne’e sei fó valor mai ami hodi nune’e bele kompleta ba 
+             material iha semester V. Alende estajiu sai mos hanesan matadalan ida ba ami 
+             estudante sira atu bele hetan esperensia servisu nian hodi aumenta ami nia kapasidade.
+              Ho nune’e maka estajiu sai hanesan modelu ou faze ida hodi ami estudante sira ejerse ami 
+              nia koñesimentu liu husi teoria ne’ebe durante ne’e, ami estudante hala’o ami nia
+               estudu aprendizajen i mos edukasun ne’ebé tuir ona sistematika, ne’ebé instituisaun 
+               IOB termina ona no sai mos hanesan kriteria ida antes hekerek monografia ou faze ikus
+                nian iha Institute of Business (IOB) refere.</p>
+
+                <P>Estajiu sai hanesan planu no sistema ba ami estudante ne`ebé maka 
+                  remata ona husi teoria no planu atu promove ami estudante sira sai 
+                  hanesan kanidatu ba funsionario ou staf, atu nune’e iha funsaun oinsa maka atu bele
+                   implementa teoria iha pratika molok atu remata ami
+                   nia estudu eprendizajemiha Institute of Business (IOB) refere.</P>
+
+        <P>Ho siensia koñesimentu iha area teknolojia ne’ebe modernu i
+           motivasaun ba mudansa iha area globalizasaun agora.
+            Ne’ebé agora iha kompetisaun ba servisu iha rai liur ou iha rai laran, 
+            ne’ebé hasoru difikuldade bo’ot no todan tebes. Tan nune’e presija tebes 
+            funsionariu tenki iha servisu iha kualidade no kreativu,
+           inovativu ba funcionariu ida-idak iha nia area. </P>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- About Section -->
+  <div class="about-container" id="about">
+    <div class="about-header">
+      <h2>About</h2>
+      <p>Owerview no History</p>
+    </div>
+
+    <div class="menu-bar">
+      <button class="tab-btn active" onclick="showTab('overview')">
+        <i class="fas fa-eye"></i> Overview
+      </button>
+      <button class="tab-btn" onclick="showTab('history')">
+        <i class="fas fa-clock-rotate-left"></i> History
+      </button>
+    </div>
+
+    <div id="overview" class="content-section active">
+      <h3>Atauro</h3>
+      <div class="about-contain">
+        <div class="about-image">
+          <img src="foto/5.jpg" alt="Foto IOB Timor-Leste">
+        </div>
+        <div class="about-content">
+          <h1 id="Overview">Histora Ilha Atauro</h1>
+          <p>
+            Ilha Atauro lokaliza iha parte norte Dili, kapitál Timor-Leste.
+             Naran "Atauro" signifika "fatuk" iha língua lokál tanba rai-Olanda 
+             lori bibi-timur ba illa ne'e. Durante períodu koloniál Portugal nian, 
+             illa ne'e uza hanesan fatin polítiku ida. Bainhira Indonesia (1975-1999), 
+             Atauro tau iha kampu refujiadu no komarka sira. Hafoin Timor-Leste 
+             nia independénsia iha 2002, Atauro hahú dezenvolve hanesan rai-li'ur
+              tanba nia rekursu tasi nian. Ema barak hela iha suku no toos sira. 
+              Kultura lokál, ne'ebé influénsia husi relijiaun katólika no prátika onestidade. 
+              Ohin loron, Atauro hatene kona-ba ninia domin boot ba siénsia no teknolojia.
+               Maske asesu sei limitadu, illa ne'e hanesan símbolu ba estabilidade no 
+               furak Timor-Leste nian.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="history" class="content-section">
+      <h3>Our History</h3>
+      <div class="about-contain">
+        <div class="about-image">
+          <img src="foto/Ella.jpg" alt="Foto IOB Timor-Leste">
+        </div>
+        <div class="about-content">
+          <h1 id="history">Historia hau ba Eskola iha IOB</h1>
+          <p>
+            Hau hakarak eskola iha IOB tamba institutu ne'e bele fó 
+            hau oportunidade atu desenvolve hau nia abilidade no kompeténsia iha area negosiu 
+             no ekonomia.
+             IOB mós hanesan dalan ida ba hau atu hetan kualifikasaun akademiku ho nivel liu tan no sai 
+             profissionál kompetente iha futuru.
+          </p><br>
+
+          <p>  Hau mós hakarak aproveita oportunidade sira ne'ebé IOB 
+            oferse ba estudante, hanesan estajiu, rede konetasaun , 
+            no atividade akademiku seluk. Hau sente katak IOB mak sai 
+            institutu ida ne'ebé diak liu ba hau atu realiza hau nia 
+            objetivu akademiku no profissionál.</p><br>
+
+            <p>Hau espera katak ho eskola iha IOB, hau bele sai profissionál kompetente
+               ida ne'ebé diak liu iha area negosiu no ekonomia, no mós bele kontribui ba
+                dezenvolvimentu ekonomia no sosial iha Timor-Leste
+              . Hau sente katak IOB mak sai uma mahon ida ne'ebé importante tebes ba hau nia futuru.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <div class="title" id="gallery">
+    <h4>📷 Hau nia Gallery</h4>
+    <div class="gallery">
+      <img src="foto/1.jpg" alt="Foto 1">
+      <img src="foto/3.jpg" alt="Foto 2">
+      <img src="foto/6.jpg" alt="Foto 3">
+      <img src="foto/7.jpg" alt="Foto 4">
+      <img src="foto/8.jpg" alt="Foto 4">
+      <img src="foto/10.jpg" alt="Foto 4">
+      <img src="foto/9.jpg" alt="Foto 4">
+      <img src="foto/11.jpg" alt="Foto 4">
+      <img src="foto/4.jfif" alt="Foto 4">
+      <img src="foto/3.jpg" alt="Foto 4">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <span class="close" onclick="closeModal()">×</span>
+      <span class="prev" onclick="changeImage(-1)">❮</span>
+      <img id="modalImg" src="" alt="Foto besar">
+      <span class="next" onclick="changeImage(1)">❯</span>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-card" id="contact">
+    <h2 id="contact">📬 Kontaktu</h2>
+    <center>
+      <form>
+        <div class="form-group">
+          <label for="phone">📱 Nomor Telefone:</label>
+          <input type="number" id="phone" name="phone" placeholder="Exemplo: +670-xxxx-xxxx" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">📧 Email:</label>
+          <input type="email" id="email" name="email" placeholder="email@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="comment">💬 Komentariu:</label>
+          <textarea id="comment" name="comment" placeholder="Prense KOmentariu iha ne'e" required></textarea>
+        </div>
+      </form>
+    
+
+    <button type="submit">Submete</button>
+
+    <div class="info">
+      Hau se balas ita boot nia kontaktu
+    </div>
+  </div>
+  </center>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h3>Kona-ba Ita</h3>
+        <p>Hau nia Website ida ne'e kona-ba trabalho exame final nian</p>
+      </div>
+      <div class="footer-section links">
+        <h3>Klik Iha ne'e</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Kontaktu</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h3>Kontaktu</h3>
+        <p>Enderenssu: Fatumeta- No. 123, Dili, Timor-Leste</p>
+        <p>Telepon: +670 1234 5678</p>
+        <p>Email: example@mywebsite.com</p>
+      </div>
+      <div class="footer-section social">
+        <h3>Media Sosial</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 MyWebsite. Trabalho.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Toggle mobile menu
+    const hamburger = document.querySelector('.hamburger-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      
+      // Animate hamburger icon
+      hamburger.classList.toggle('toggle');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-links li a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('toggle');
+      });
+    });
+
+    function showTab(tabId) {
+      const sections = document.querySelectorAll('.content-section');
+      const buttons = document.querySelectorAll('.tab-btn');
+
+      sections.forEach(sec => sec.classList.remove('active'));
+      buttons.forEach(btn => btn.classList.remove('active'));
+
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modalImg");
+    const images = document.querySelectorAll(".gallery img");
+    let currentIndex = 0;
+
+    images.forEach((img, index) => {
+      img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        modalImg.src = img.src;
+        currentIndex = index;
+      });
+    });
+
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    function changeImage(direction) {
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = images.length - 1;
+      if (currentIndex >= images.length) currentIndex = 0;
+      modalImg.src = images[currentIndex].src;
+    }
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) closeModal();
+    });
+  </script>
+
+</body>
+</html>
